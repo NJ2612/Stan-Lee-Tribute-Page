@@ -8,7 +8,7 @@
     align-items: center;
     height: 100vh;
     background-color: #f0f0f0;
-    background-image: url('Marvel\ Comics\ Book\ Avengers\ Iron\ Man\ Spider\ Man\ She\ Hulk\ Cartoon\ Hero\ Captan\ America\ Characters\ Print\ Seamless\ Pattern\ Superhero\ Film\ -\ Etsy.jpeg');
+    background-image: url('background1.jpeg');
   }
   .box {
     min-width: 200px;
@@ -24,8 +24,8 @@
     animation:reverse 0.3s;
   }
   .box:hover {
-    background:#da19197c;
-    transform: scale(1.1);
+    background-color: #f0f0f09b;
+    transform: scale(1.2);
   }
   .box a {
     color: #000000;
