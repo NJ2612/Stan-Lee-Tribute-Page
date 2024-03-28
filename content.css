@@ -1,0 +1,51 @@
+body {
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    text-align: center;
+    background: url(https://images.complex.com/complex/image/upload/w_680/t_in_content_image/marvel_bedding_5_nxi3dh.jpg);
+    background-attachment: fixed;
+    background-size: auto;
+    color: #000000;
+    font-family: "Barlow";
+    font-size: 20px;
+    min-width: 260px;
+    max-width: 1900px;
+  }
+img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 99%;
+    display: block;
+    margin: auto;
+    border: #000000;
+    border-style:outset;
+}
+img:hover{
+  transform: scale(1.1);
+}
+  main {
+    padding: 50px 40px 30px 40px;
+    background: rgba(185, 172, 172, 0.803);
+    background-size: cover;
+    background-attachment: scroll;
+    min-width: 260px;
+    max-width: 1900px;
+  }
+  #quote {
+    padding: 0.3125em 0.3125em 0.3125em 0.3125em;
+    text-align: center;
+    display: block;
+    border-radius: 10px;
+    background: rgba(189, 82, 70, 0.851);
+    font-family: Playball;
+    font-size: 25px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #quote:hover {
+    background: rgba(214, 10, 10, 0.941);
+    transform: scale(1.1);
+  }
+  
