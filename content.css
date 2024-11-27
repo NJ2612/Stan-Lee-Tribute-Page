@@ -1,51 +1,94 @@
 body {
-    margin-top: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-    margin-left: 50px;
-    text-align: center;
-    background: url('background\(2\).jpg');
-    background-attachment: fixed;
-    background-size: auto;
-    color: #000000;
-    font-family: "Barlow";
-    font-size: 20px;
-    min-width: 260px;
-    max-width: 1900px;
-  }
-img {
-    max-width: 40%;
-    height: auto;
-    border-radius: 99%;
-    display: block;
-    margin: auto;
-    border: #000000;
-    border-style:outset;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  text-align: center;
+  background: url('background(2).jpg');
+  background-attachment: fixed;
+  background-size: auto;
+  color: #000000;
+  font-family: "Barlow";
+  font-size: 20px;
+  min-width: 260px;
+  max-width: 1900px;
+  background-color: rgba(255, 255, 255, 0.5); 
 }
-img:hover{
+
+@media (max-width: 768px) {
+  body {
+      margin: 20px; 
+      font-size: 18px; 
+  }
+}
+
+img {
+  max-width: 40%;
+  height: auto;
+  border-radius: 99%;
+  display: block;
+  margin: auto;
+  border: #000000;
+  border-style: outset;
+}
+
+img:hover {
   transform: scale(1.1);
 }
-  main {
-    padding: 50px 40px 30px 40px;
-    background: rgba(185, 172, 172, 0.803);
-    background-size: cover;
-    background-attachment: scroll;
-    min-width: 260px;
-    max-width: 1900px;
-  }
-  #quote {
-    padding: 0.3125em 0.3125em 0.3125em 0.3125em;
-    text-align: center;
-    display: block;
-    border-radius: 10px;
-    background: rgba(189, 82, 70, 0.851);
-    font-family: Playball;
-    font-size: 25px;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  #quote:hover {
-    background: rgba(214, 10, 10, 0.941);
-    transform: scale(1.1);
-  }
-  
+
+main {
+  padding: 50px 40px 30px 40px;
+  background: rgba(185, 172, 172, 0.877); 
+  background-size: cover;
+  background-attachment: scroll;
+  min-width: 260px;
+  max-width: 1900px;
+}
+
+#quote {
+  padding: 0.3125em;
+  text-align: center;
+  display: block;
+  border-radius: 10px;
+  background: rgba(189, 82, 70, 0.5); 
+  font-family: Playball;
+  font-size: 25px;
+  transition: all 0.3s ease-in-out;
+}
+
+#quote:hover {
+  background: rgba(214, 10, 10, 0.726); 
+  transform: scale(1.1);
+}
+nav {
+  background-color: rgba(0, 0, 0, 0.753); 
+  padding: 10px;
+  position: fixed; 
+  width: 100%; 
+  z-index: 1000; 
+  top: 0;
+  left: 0;
+}
+
+nav ul {
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0; 
+  display: flex; 
+  justify-content: center; 
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: white; 
+  text-decoration: none; 
+  font-weight: bold; 
+  transition: color 0.3s; 
+}
+
+nav a:hover {
+  color: #ffcc00; 
+}
