@@ -1,5 +1,3 @@
-## USING THE FILES
+## The folder is undergoing major changes meanwhile you can follow the given link to see the deployment of this project 
 
-Open the file named mainpage.html to view the main web page.
-The other files are linked to it so you won't be facing any difficulty viewing them. 
-In case you wish to access them separately , the files are named accordingly as well as the images.
+https://nj2612.github.io/Stan-Lee-Tribute-Page/
