@@ -1,6 +1,6 @@
 # Stan Lee Tribute Page
 
-A heartfelt tribute to the legendary Stan Lee, the creator of countless iconic Marvel superheroes and a pioneer in the comic book industry. This project is a web page designed to honor his life, work, and enduring legacy.
+A heartfelt tribute to the legendary Stan Lee, the creator of countless iconic Marvel superheroes and a pioneer in the comic book industry. This project is a web page designed to honor his life, work, and enduring legacy. You can view the website at  https://nj2612.github.io/Stan-Lee-Tribute-Page/ 
 
 ## Table of Contents
 - [Overview](#overview)
